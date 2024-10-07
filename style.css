@@ -8,6 +8,13 @@ body {
     padding: 0;
 }
 
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -41,3 +48,38 @@ nav ul li a:hover {
     color: cadetblue;
     border-bottom: 1px solid cadetblue;
 }
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 1200px;
+    height: 700px;
+}
+
+/* .logo {
+    display: flex;
+    flex-shrink: 0;
+    gap: 4px;
+    padding: 2px;
+    animation: infinite-scroll 5s linear infinite;
+}
+
+.logo img {
+    width: 350px;
+    height: 300px;
+}
+
+.logo-container {
+    display: flex;
+    overflow: hidden;
+}
+
+@keyframes infinite-scroll {
+    from {
+        transform: translateX(0);
+    }to {
+        transform: translateX(-100%);
+    }
+} */
