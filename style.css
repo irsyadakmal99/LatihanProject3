@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik';
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px 5px;
+    border-bottom: 1px solid black;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(163, 113, 20, 0);
+}
+
+nav ul li a:hover {
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+}
